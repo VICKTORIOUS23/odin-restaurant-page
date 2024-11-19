@@ -1,4 +1,14 @@
 import "./styles.css";
-import { greeting } from "./restaurant.js";
+import { buildBackground, buildTopBar, buildMainBody } from "./restaurant.js";
+import { container } from "./restaurant.js";
 
-console.log(greeting);
+buildBackground();
+
+buildTopBar();
+
+buildMainBody();
+
+
+
+
+
