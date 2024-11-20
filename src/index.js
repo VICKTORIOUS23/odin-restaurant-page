@@ -1,6 +1,6 @@
 import "./styles.css";
-import { buildBackground, buildTopBar, buildMainBody } from "./restaurant.js";
-import { container } from "./restaurant.js";
+import { buildBackground, buildTopBar, buildMainBody, activePage } from "./restaurant.js";
+import { transitionCount,  } from "./restaurant.js";
 
 buildBackground();
 
