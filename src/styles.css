@@ -201,29 +201,7 @@ body {
     align-items:center;
 }
 
-@media(max-width:768px) {
-    .main-container {
-        min-width:430px;
-    }
-    .top-bar-con {
-        margin-top:150px;
-    }
-    .top-bar-logo {
-        transform:translateY(-100px)
-                  translateX(210px);
-    }
-    .top-bar-list-con {
-        transform:translateX(-160px);
-        font-size:28px;
-    }
-    .menu-card {
-        min-width:380px;
-    }
-    .home-one-img {
-        width:100%;
-        transform:translateY(-50px);
-    }
-}
+
 
 .home-one-img {
     position:relative;
@@ -232,7 +210,7 @@ body {
     transform:translateY(-50px);
     display:flex;
     overflow:hidden;
-    height:auto;
+    
     width:100%;
     height:450px;
     background-repeat:no-repeat;
@@ -356,7 +334,7 @@ body {
                inset 0 0 15px rgb(0 0 0 / 20%);
     text-shadow:0 0 10px rgb(0 0 0 / 40%);
     color:rgb(0 0 0 / 15%);
-    
+    text-wrap:nowrap;
 }
 
 .home-social-con {
@@ -391,32 +369,32 @@ body {
 }
 
 .home-social-two {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/fernando-music.jpg');
     
 }
 
 .home-social-three {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/group-two.jpg');
     
 }
 
 .home-social-four {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/group-three.jpg');
     
 }
 
 .home-social-five {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/thanksgiving.jpg');
     
 }
 
 .home-social-six {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/woody-sugarskull.jpg');
     
 }
 
 .home-social-seven {
-    background-image:url('./images/pako-music.jpg');
+    background-image:url('./images/party-one.jpg');
     
 }
 
@@ -431,5 +409,97 @@ body {
     width:90%;
     height:450px;
     
+    
+}
+
+@media(max-width:768px) {
+    .main-container {
+        min-width:430px;
+    }
+    .top-bar-con {
+        margin-top:150px;
+    }
+    .top-bar-logo {
+        transform:translateY(-100px)
+                  translateX(210px);
+    }
+    .top-bar-list-con {
+        transform:translateX(-160px);
+        font-size:28px;
+    }
+    .menu-card {
+        min-width:380px;
+    }
+    .home-one-img {
+        width:100%;
+        height:350px;
+        background-position-y:0;
+        
+    }
+
+    .home-two-con {
+        box-shadow:none;
+        transform:none;
+        margin-top:-60px;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .home-two-left {
+        height:250px;
+        transform:none;
+        box-shadow:none;
+        border:none;
+        width:100%;
+        border-top-left-radius:0;
+        border-top-right-radius:0;
+    }
+
+    .home-two-right {
+        width:100%;
+        transform:translateY(-30px);
+    }
+
+    .home-two-left-title {
+        transform:rotate(10deg)
+                  translateY(-30px)
+                  translateX(-120px);
+        min-height:77px;        
+        background-size:contain;
+    }
+
+    .home-two-left-desc {
+        
+    }
+
+    .home-two-left-button {
+        transform:translateX(120px)
+                  translateY(-40px);
+        min-height:40px;
+        min-width:150px;
+    }
+
+    .home-follow {
+        width:90%;
+    }
+
+    .home-social-one, .home-social-two, .home-social-three, .home-social-four, .home-social-five, .home-social-six, .home-social-seven, .home-social-eight {
+        min-width:50%;
+        max-width:50%;
+        box-shadow:none;
+        border:1px solid black;
+    }
+
+    .home-social-seven {
+        background-position-y:-40px;
+    }
+
+    .home-social-two {
+        background-position-y:-80px;
+    }
+
+    .home-social-con {
+        width:100%;
+    }
     
 }
